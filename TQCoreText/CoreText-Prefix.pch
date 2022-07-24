@@ -1,0 +1,30 @@
+//
+//  CoreText-Prefix.pch
+//  TQCoreText
+//
+//  Created by janezhuang on 2022/7/9.
+//
+
+#ifndef CoreText_Prefix_pch
+#define CoreText_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreText/CoreText.h>
+    #import "UIView+Frame.h"
+#endif
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
+
+#define RGB(A, B, C)    [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+
+#endif /* CoreText_Prefix_pch */
