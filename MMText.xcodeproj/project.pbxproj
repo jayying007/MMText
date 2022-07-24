@@ -6,12 +6,68 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F0D2A51288D1F7300E72797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A50288D1F7300E72797 /* AppDelegate.m */; };
+		3F0D2A54288D1F7300E72797 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A53288D1F7300E72797 /* SceneDelegate.m */; };
+		3F0D2A57288D1F7300E72797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A56288D1F7300E72797 /* ViewController.m */; };
+		3F0D2A5A288D1F7300E72797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2A58288D1F7300E72797 /* Main.storyboard */; };
+		3F0D2A5C288D1F7400E72797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2A5B288D1F7400E72797 /* Assets.xcassets */; };
+		3F0D2A5F288D1F7400E72797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2A5D288D1F7400E72797 /* LaunchScreen.storyboard */; };
+		3F0D2A62288D1F7400E72797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A61288D1F7400E72797 /* main.m */; };
+		3F0D2A69288D1F9F00E72797 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A67288D1F9F00E72797 /* UIView+Frame.m */; };
+		3F0D2A7D288D1FAE00E72797 /* CoreTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A6C288D1FAE00E72797 /* CoreTextUtils.m */; };
+		3F0D2A7E288D1FAE00E72797 /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A6F288D1FAE00E72797 /* CTFrameParser.m */; };
+		3F0D2A7F288D1FAE00E72797 /* CoreTextImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A73288D1FAE00E72797 /* CoreTextImageData.m */; };
+		3F0D2A80288D1FAE00E72797 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A77288D1FAE00E72797 /* CTFrameParserConfig.m */; };
+		3F0D2A81288D1FAE00E72797 /* CoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A78288D1FAE00E72797 /* CoreTextData.m */; };
+		3F0D2A82288D1FAE00E72797 /* CoreTextLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A79288D1FAE00E72797 /* CoreTextLinkData.m */; };
+		3F0D2A83288D1FAE00E72797 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2A7B288D1FAE00E72797 /* CTDisplayView.m */; };
+		3F0D2A86288D208F00E72797 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2A85288D208F00E72797 /* content.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3F0D2A2D288D1E6900E72797 /* MMText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D2A4D288D1F7300E72797 /* TQCoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQCoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D2A4F288D1F7300E72797 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0D2A50288D1F7300E72797 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0D2A52288D1F7300E72797 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3F0D2A53288D1F7300E72797 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3F0D2A55288D1F7300E72797 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F0D2A56288D1F7300E72797 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F0D2A59288D1F7300E72797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0D2A5B288D1F7400E72797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0D2A5E288D1F7400E72797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0D2A60288D1F7400E72797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D2A61288D1F7400E72797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0D2A67288D1F9F00E72797 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3F0D2A68288D1F9F00E72797 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3F0D2A6C288D1FAE00E72797 /* CoreTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextUtils.m; sourceTree = "<group>"; };
+		3F0D2A6D288D1FAE00E72797 /* CoreTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextUtils.h; sourceTree = "<group>"; };
+		3F0D2A6F288D1FAE00E72797 /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
+		3F0D2A70288D1FAE00E72797 /* CTFrameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		3F0D2A72288D1FAE00E72797 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		3F0D2A73288D1FAE00E72797 /* CoreTextImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextImageData.m; sourceTree = "<group>"; };
+		3F0D2A74288D1FAE00E72797 /* CoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextData.h; sourceTree = "<group>"; };
+		3F0D2A75288D1FAE00E72797 /* CoreTextLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextLinkData.h; sourceTree = "<group>"; };
+		3F0D2A76288D1FAE00E72797 /* CoreTextImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextImageData.h; sourceTree = "<group>"; };
+		3F0D2A77288D1FAE00E72797 /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
+		3F0D2A78288D1FAE00E72797 /* CoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextData.m; sourceTree = "<group>"; };
+		3F0D2A79288D1FAE00E72797 /* CoreTextLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextLinkData.m; sourceTree = "<group>"; };
+		3F0D2A7B288D1FAE00E72797 /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		3F0D2A7C288D1FAE00E72797 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		3F0D2A84288D1FCA00E72797 /* CoreText-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreText-Prefix.pch"; sourceTree = "<group>"; };
+		3F0D2A85288D208F00E72797 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F0D2A2A288D1E6800E72797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D2A4A288D1F7300E72797 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -24,6 +80,7 @@
 		3F0D2A24288D1E6800E72797 = {
 			isa = PBXGroup;
 			children = (
+				3F0D2A4E288D1F7300E72797 /* TQCoreText */,
 				3F0D2A2E288D1E6900E72797 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -32,8 +89,93 @@
 			isa = PBXGroup;
 			children = (
 				3F0D2A2D288D1E6900E72797 /* MMText.app */,
+				3F0D2A4D288D1F7300E72797 /* TQCoreText.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0D2A4E288D1F7300E72797 /* TQCoreText */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A84288D1FCA00E72797 /* CoreText-Prefix.pch */,
+				3F0D2A6A288D1FAE00E72797 /* CoreText */,
+				3F0D2A66288D1F9F00E72797 /* Util */,
+				3F0D2A4F288D1F7300E72797 /* AppDelegate.h */,
+				3F0D2A50288D1F7300E72797 /* AppDelegate.m */,
+				3F0D2A52288D1F7300E72797 /* SceneDelegate.h */,
+				3F0D2A53288D1F7300E72797 /* SceneDelegate.m */,
+				3F0D2A55288D1F7300E72797 /* ViewController.h */,
+				3F0D2A56288D1F7300E72797 /* ViewController.m */,
+				3F0D2A58288D1F7300E72797 /* Main.storyboard */,
+				3F0D2A5B288D1F7400E72797 /* Assets.xcassets */,
+				3F0D2A5D288D1F7400E72797 /* LaunchScreen.storyboard */,
+				3F0D2A60288D1F7400E72797 /* Info.plist */,
+				3F0D2A61288D1F7400E72797 /* main.m */,
+				3F0D2A85288D208F00E72797 /* content.json */,
+			);
+			path = TQCoreText;
+			sourceTree = "<group>";
+		};
+		3F0D2A66288D1F9F00E72797 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A67288D1F9F00E72797 /* UIView+Frame.m */,
+				3F0D2A68288D1F9F00E72797 /* UIView+Frame.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3F0D2A6A288D1FAE00E72797 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A6B288D1FAE00E72797 /* Util */,
+				3F0D2A6E288D1FAE00E72797 /* Controller */,
+				3F0D2A71288D1FAE00E72797 /* Model */,
+				3F0D2A7A288D1FAE00E72797 /* View */,
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		3F0D2A6B288D1FAE00E72797 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A6C288D1FAE00E72797 /* CoreTextUtils.m */,
+				3F0D2A6D288D1FAE00E72797 /* CoreTextUtils.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3F0D2A6E288D1FAE00E72797 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A6F288D1FAE00E72797 /* CTFrameParser.m */,
+				3F0D2A70288D1FAE00E72797 /* CTFrameParser.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F0D2A71288D1FAE00E72797 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A72288D1FAE00E72797 /* CTFrameParserConfig.h */,
+				3F0D2A73288D1FAE00E72797 /* CoreTextImageData.m */,
+				3F0D2A74288D1FAE00E72797 /* CoreTextData.h */,
+				3F0D2A75288D1FAE00E72797 /* CoreTextLinkData.h */,
+				3F0D2A76288D1FAE00E72797 /* CoreTextImageData.h */,
+				3F0D2A77288D1FAE00E72797 /* CTFrameParserConfig.m */,
+				3F0D2A78288D1FAE00E72797 /* CoreTextData.m */,
+				3F0D2A79288D1FAE00E72797 /* CoreTextLinkData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F0D2A7A288D1FAE00E72797 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2A7B288D1FAE00E72797 /* CTDisplayView.m */,
+				3F0D2A7C288D1FAE00E72797 /* CTDisplayView.h */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -56,6 +198,23 @@
 			productReference = 3F0D2A2D288D1E6900E72797 /* MMText.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3F0D2A4C288D1F7300E72797 /* TQCoreText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D2A63288D1F7400E72797 /* Build configuration list for PBXNativeTarget "TQCoreText" */;
+			buildPhases = (
+				3F0D2A49288D1F7300E72797 /* Sources */,
+				3F0D2A4A288D1F7300E72797 /* Frameworks */,
+				3F0D2A4B288D1F7300E72797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQCoreText;
+			productName = TQCoreText;
+			productReference = 3F0D2A4D288D1F7300E72797 /* TQCoreText.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -66,6 +225,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					3F0D2A2C288D1E6800E72797 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3F0D2A4C288D1F7300E72797 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -84,6 +246,7 @@
 			projectRoot = "";
 			targets = (
 				3F0D2A2C288D1E6800E72797 /* MMText */,
+				3F0D2A4C288D1F7300E72797 /* TQCoreText */,
 			);
 		};
 /* End PBXProject section */
@@ -93,6 +256,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D2A4B288D1F7300E72797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D2A5F288D1F7400E72797 /* LaunchScreen.storyboard in Resources */,
+				3F0D2A5C288D1F7400E72797 /* Assets.xcassets in Resources */,
+				3F0D2A5A288D1F7300E72797 /* Main.storyboard in Resources */,
+				3F0D2A86288D208F00E72797 /* content.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +280,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F0D2A49288D1F7300E72797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D2A57288D1F7300E72797 /* ViewController.m in Sources */,
+				3F0D2A82288D1FAE00E72797 /* CoreTextLinkData.m in Sources */,
+				3F0D2A7F288D1FAE00E72797 /* CoreTextImageData.m in Sources */,
+				3F0D2A80288D1FAE00E72797 /* CTFrameParserConfig.m in Sources */,
+				3F0D2A7D288D1FAE00E72797 /* CoreTextUtils.m in Sources */,
+				3F0D2A51288D1F7300E72797 /* AppDelegate.m in Sources */,
+				3F0D2A81288D1FAE00E72797 /* CoreTextData.m in Sources */,
+				3F0D2A62288D1F7400E72797 /* main.m in Sources */,
+				3F0D2A69288D1F9F00E72797 /* UIView+Frame.m in Sources */,
+				3F0D2A7E288D1FAE00E72797 /* CTFrameParser.m in Sources */,
+				3F0D2A83288D1FAE00E72797 /* CTDisplayView.m in Sources */,
+				3F0D2A54288D1F7300E72797 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F0D2A58288D1F7300E72797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D2A59288D1F7300E72797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0D2A5D288D1F7400E72797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D2A5E288D1F7400E72797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3F0D2A44288D1E6900E72797 /* Debug */ = {
@@ -273,6 +485,64 @@
 			};
 			name = Release;
 		};
+		3F0D2A64288D1F7400E72797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JSFRSCH9;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "TQCoreText/CoreText-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TQCoreText/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jane.TQCoreText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0D2A65288D1F7400E72797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JSFRSCH9;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "TQCoreText/CoreText-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TQCoreText/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jane.TQCoreText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -290,6 +560,15 @@
 			buildConfigurations = (
 				3F0D2A47288D1E6900E72797 /* Debug */,
 				3F0D2A48288D1E6900E72797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0D2A63288D1F7400E72797 /* Build configuration list for PBXNativeTarget "TQCoreText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D2A64288D1F7400E72797 /* Debug */,
+				3F0D2A65288D1F7400E72797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
