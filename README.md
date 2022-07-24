@@ -18,3 +18,14 @@
 ![](./Resources/3.png)
 
 分别用CoreText和TextKit的方式，实现了文本不规则排版、分列排版
+
+---
+### CustomTextInput
+
+![](./Resources/4.png)
+
+自定义TextView，不是继承自UITextView，而是继承自UIView，然后重写UITextInput相关逻辑。
+
+代码大部分来自于苹果的例子：https://developer.apple.com/library/archive/samplecode/SimpleTextInput/Introduction/Intro.html
+
+不过苹果的那个例子有好几个bug，这里做了修复。
