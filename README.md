@@ -29,3 +29,11 @@
 代码大部分来自于苹果的例子：https://developer.apple.com/library/archive/samplecode/SimpleTextInput/Introduction/Intro.html
 
 不过苹果的那个例子有好几个bug，这里做了修复。
+
+---
+### MMTextView
+
+![](./Resources/5.png)
+
+实现一个富文本编辑器，可以插入任意类型的UIView，也支持复制粘贴，代码精简。
+由于Markdown不支持插入视频，我就发一张截图了。。
