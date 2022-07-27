@@ -51,6 +51,21 @@
 		3F0D2AEE288D255400E72797 /* CaretView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2AEC288D255400E72797 /* CaretView.m */; };
 		3F0D2AF4288D255F00E72797 /* IndexedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2AF1288D255F00E72797 /* IndexedRange.m */; };
 		3F0D2AF5288D255F00E72797 /* IndexedPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2AF2288D255F00E72797 /* IndexedPosition.m */; };
+		3F0D2AFE288D26FB00E72797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2AFD288D26FB00E72797 /* AppDelegate.m */; };
+		3F0D2B04288D26FB00E72797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B03288D26FB00E72797 /* ViewController.m */; };
+		3F0D2B09288D26FC00E72797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2B08288D26FC00E72797 /* Assets.xcassets */; };
+		3F0D2B0C288D26FC00E72797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D2B0A288D26FC00E72797 /* LaunchScreen.storyboard */; };
+		3F0D2B0F288D26FC00E72797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B0E288D26FC00E72797 /* main.m */; };
+		3F0D2B15288D2A7600E72797 /* MMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B14288D2A7600E72797 /* MMTextView.m */; };
+		3F0D2B18288D2AB900E72797 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B17288D2AB900E72797 /* UIView+Frame.m */; };
+		3F0D2B1B288D2EA800E72797 /* MMTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B1A288D2EA800E72797 /* MMTextAttachment.m */; };
+		3F0D2B1E288D30BD00E72797 /* MMAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B1D288D30BD00E72797 /* MMAttachmentView.m */; };
+		3F0D2B21288D33A300E72797 /* MMImageAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B20288D33A300E72797 /* MMImageAttachmentView.m */; };
+		3F0D2B24288D33B700E72797 /* MMFileAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B23288D33B700E72797 /* MMFileAttachmentView.m */; };
+		3F0D2B28288D462F00E72797 /* MMAttachmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B27288D462F00E72797 /* MMAttachmentData.m */; };
+		3F0D2B2B288D4AF700E72797 /* MMLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D2B2A288D4AF700E72797 /* MMLayoutManager.m */; };
+		3FC8A9A628917D8E00B3DD02 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8A9A528917D8E00B3DD02 /* NSObject+YYModel.m */; };
+		3FC8A9F028917E4200B3DD02 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8A9EF28917E4200B3DD02 /* YYClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +150,36 @@
 		3F0D2AF1288D255F00E72797 /* IndexedRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexedRange.m; sourceTree = "<group>"; };
 		3F0D2AF2288D255F00E72797 /* IndexedPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexedPosition.m; sourceTree = "<group>"; };
 		3F0D2AF3288D255F00E72797 /* IndexedRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexedRange.h; sourceTree = "<group>"; };
+		3F0D2AFA288D26FB00E72797 /* MMTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D2AFC288D26FB00E72797 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0D2AFD288D26FB00E72797 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0D2B02288D26FB00E72797 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F0D2B03288D26FB00E72797 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F0D2B08288D26FC00E72797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0D2B0B288D26FC00E72797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0D2B0D288D26FC00E72797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D2B0E288D26FC00E72797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0D2B13288D2A7600E72797 /* MMTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTextView.h; sourceTree = "<group>"; };
+		3F0D2B14288D2A7600E72797 /* MMTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTextView.m; sourceTree = "<group>"; };
+		3F0D2B16288D2AB900E72797 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3F0D2B17288D2AB900E72797 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3F0D2B19288D2EA800E72797 /* MMTextAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTextAttachment.h; sourceTree = "<group>"; };
+		3F0D2B1A288D2EA800E72797 /* MMTextAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTextAttachment.m; sourceTree = "<group>"; };
+		3F0D2B1C288D30BD00E72797 /* MMAttachmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAttachmentView.h; sourceTree = "<group>"; };
+		3F0D2B1D288D30BD00E72797 /* MMAttachmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAttachmentView.m; sourceTree = "<group>"; };
+		3F0D2B1F288D33A300E72797 /* MMImageAttachmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMImageAttachmentView.h; sourceTree = "<group>"; };
+		3F0D2B20288D33A300E72797 /* MMImageAttachmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMImageAttachmentView.m; sourceTree = "<group>"; };
+		3F0D2B22288D33B700E72797 /* MMFileAttachmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFileAttachmentView.h; sourceTree = "<group>"; };
+		3F0D2B23288D33B700E72797 /* MMFileAttachmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFileAttachmentView.m; sourceTree = "<group>"; };
+		3F0D2B25288D344D00E72797 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3F0D2B26288D462F00E72797 /* MMAttachmentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAttachmentData.h; sourceTree = "<group>"; };
+		3F0D2B27288D462F00E72797 /* MMAttachmentData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAttachmentData.m; sourceTree = "<group>"; };
+		3F0D2B29288D4AF700E72797 /* MMLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMLayoutManager.h; sourceTree = "<group>"; };
+		3F0D2B2A288D4AF700E72797 /* MMLayoutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMLayoutManager.m; sourceTree = "<group>"; };
+		3FC8A9A428917D8E00B3DD02 /* NSObject+YYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		3FC8A9A528917D8E00B3DD02 /* NSObject+YYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		3FC8A9EE28917E4200B3DD02 /* YYClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		3FC8A9EF28917E4200B3DD02 /* YYClassInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F0D2AF7288D26FB00E72797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -183,6 +235,7 @@
 				3F0D2A8C288D21CC00E72797 /* TextMask */,
 				3F0D2AA9288D22EC00E72797 /* ColumnarLayout */,
 				3F0D2ACD288D253500E72797 /* CustomTextInput */,
+				3F0D2AFB288D26FB00E72797 /* MMTextView */,
 				3F0D2A2E288D1E6900E72797 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,6 +248,7 @@
 				3F0D2A8B288D21CC00E72797 /* TextMask.app */,
 				3F0D2AA8288D22EC00E72797 /* ColumnarLayout.app */,
 				3F0D2ACC288D253500E72797 /* CustomTextInput.app */,
+				3F0D2AFA288D26FB00E72797 /* MMTextView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -375,6 +429,74 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3F0D2AFB288D26FB00E72797 /* MMTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8A9A328917D4500B3DD02 /* Util */,
+				3F0D2B76288D7BF800E72797 /* View */,
+				3F0D2B74288D7BE500E72797 /* Controller */,
+				3F0D2B73288D7BD200E72797 /* Model */,
+				3F0D2AFC288D26FB00E72797 /* AppDelegate.h */,
+				3F0D2AFD288D26FB00E72797 /* AppDelegate.m */,
+				3F0D2B02288D26FB00E72797 /* ViewController.h */,
+				3F0D2B03288D26FB00E72797 /* ViewController.m */,
+				3F0D2B08288D26FC00E72797 /* Assets.xcassets */,
+				3F0D2B0A288D26FC00E72797 /* LaunchScreen.storyboard */,
+				3F0D2B0D288D26FC00E72797 /* Info.plist */,
+				3F0D2B0E288D26FC00E72797 /* main.m */,
+				3F0D2B25288D344D00E72797 /* PrefixHeader.pch */,
+			);
+			path = MMTextView;
+			sourceTree = "<group>";
+		};
+		3F0D2B73288D7BD200E72797 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2B26288D462F00E72797 /* MMAttachmentData.h */,
+				3F0D2B27288D462F00E72797 /* MMAttachmentData.m */,
+				3F0D2B19288D2EA800E72797 /* MMTextAttachment.h */,
+				3F0D2B1A288D2EA800E72797 /* MMTextAttachment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F0D2B74288D7BE500E72797 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2B29288D4AF700E72797 /* MMLayoutManager.h */,
+				3F0D2B2A288D4AF700E72797 /* MMLayoutManager.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F0D2B76288D7BF800E72797 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2B13288D2A7600E72797 /* MMTextView.h */,
+				3F0D2B14288D2A7600E72797 /* MMTextView.m */,
+				3F0D2B1C288D30BD00E72797 /* MMAttachmentView.h */,
+				3F0D2B1D288D30BD00E72797 /* MMAttachmentView.m */,
+				3F0D2B1F288D33A300E72797 /* MMImageAttachmentView.h */,
+				3F0D2B20288D33A300E72797 /* MMImageAttachmentView.m */,
+				3F0D2B22288D33B700E72797 /* MMFileAttachmentView.h */,
+				3F0D2B23288D33B700E72797 /* MMFileAttachmentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FC8A9A328917D4500B3DD02 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D2B16288D2AB900E72797 /* UIView+Frame.h */,
+				3F0D2B17288D2AB900E72797 /* UIView+Frame.m */,
+				3FC8A9A428917D8E00B3DD02 /* NSObject+YYModel.h */,
+				3FC8A9A528917D8E00B3DD02 /* NSObject+YYModel.m */,
+				3FC8A9EE28917E4200B3DD02 /* YYClassInfo.h */,
+				3FC8A9EF28917E4200B3DD02 /* YYClassInfo.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -463,6 +585,23 @@
 			productReference = 3F0D2ACC288D253500E72797 /* CustomTextInput.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3F0D2AF9288D26FB00E72797 /* MMTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D2B12288D26FC00E72797 /* Build configuration list for PBXNativeTarget "MMTextView" */;
+			buildPhases = (
+				3F0D2AF6288D26FB00E72797 /* Sources */,
+				3F0D2AF7288D26FB00E72797 /* Frameworks */,
+				3F0D2AF8288D26FB00E72797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMTextView;
+			productName = MMTextView;
+			productReference = 3F0D2AFA288D26FB00E72797 /* MMTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -487,6 +626,9 @@
 					3F0D2ACB288D253500E72797 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					3F0D2AF9288D26FB00E72797 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 3F0D2A28288D1E6800E72797 /* Build configuration list for PBXProject "MMText" */;
@@ -507,6 +649,7 @@
 				3F0D2A8A288D21CC00E72797 /* TextMask */,
 				3F0D2AA7288D22EC00E72797 /* ColumnarLayout */,
 				3F0D2ACB288D253500E72797 /* CustomTextInput */,
+				3F0D2AF9288D26FB00E72797 /* MMTextView */,
 			);
 		};
 /* End PBXProject section */
@@ -557,6 +700,15 @@
 				3F0D2ADE288D253600E72797 /* LaunchScreen.storyboard in Resources */,
 				3F0D2ADB288D253600E72797 /* Assets.xcassets in Resources */,
 				3F0D2AD9288D253500E72797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D2AF8288D26FB00E72797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D2B0C288D26FC00E72797 /* LaunchScreen.storyboard in Resources */,
+				3F0D2B09288D26FC00E72797 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +781,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F0D2AF6288D26FB00E72797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D2B2B288D4AF700E72797 /* MMLayoutManager.m in Sources */,
+				3F0D2B18288D2AB900E72797 /* UIView+Frame.m in Sources */,
+				3F0D2B21288D33A300E72797 /* MMImageAttachmentView.m in Sources */,
+				3FC8A9A628917D8E00B3DD02 /* NSObject+YYModel.m in Sources */,
+				3F0D2B04288D26FB00E72797 /* ViewController.m in Sources */,
+				3F0D2B28288D462F00E72797 /* MMAttachmentData.m in Sources */,
+				3F0D2AFE288D26FB00E72797 /* AppDelegate.m in Sources */,
+				3F0D2B1E288D30BD00E72797 /* MMAttachmentView.m in Sources */,
+				3F0D2B24288D33B700E72797 /* MMFileAttachmentView.m in Sources */,
+				3FC8A9F028917E4200B3DD02 /* YYClassInfo.m in Sources */,
+				3F0D2B15288D2A7600E72797 /* MMTextView.m in Sources */,
+				3F0D2B1B288D2EA800E72797 /* MMTextAttachment.m in Sources */,
+				3F0D2B0F288D26FC00E72797 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -692,6 +864,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F0D2ADD288D253600E72797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0D2B0A288D26FC00E72797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D2B0B288D26FC00E72797 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1083,6 +1263,60 @@
 			};
 			name = Release;
 		};
+		3F0D2B10288D26FC00E72797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JSFRSCH9;
+				GCC_PREFIX_HEADER = MMTextView/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MMTextView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jane.MMTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0D2B11288D26FC00E72797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86JSFRSCH9;
+				GCC_PREFIX_HEADER = MMTextView/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MMTextView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jane.MMTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1136,6 +1370,15 @@
 			buildConfigurations = (
 				3F0D2AE3288D253600E72797 /* Debug */,
 				3F0D2AE4288D253600E72797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0D2B12288D26FC00E72797 /* Build configuration list for PBXNativeTarget "MMTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D2B10288D26FC00E72797 /* Debug */,
+				3F0D2B11288D26FC00E72797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
