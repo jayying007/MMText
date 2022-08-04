@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "CircleTextViewController.h"
 #import "ExcludePathViewController.h"
+#import "ColorTextViewController.h"
 
 @interface AppDelegate ()
 
@@ -28,9 +29,12 @@
     ExcludePathViewController *vc2 = [[ExcludePathViewController alloc] init];
     vc2.tabBarItem = item2;
     
+    UITabBarItem *item3 = [[UITabBarItem alloc] initWithTitle:@"ColorText" image:[UIImage systemImageNamed:@"link"] tag:0];
+    ColorTextViewController *vc3 = [[ColorTextViewController alloc] init];
+    vc3.tabBarItem = item3;
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:@[ vc1, vc2 ]];
+    [tabBarController setViewControllers:@[ vc1, vc2, vc3 ]];
     [tabBarController setSelectedIndex:0];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

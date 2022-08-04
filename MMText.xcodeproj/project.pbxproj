@@ -74,6 +74,8 @@
 		3FC8AB7B2895189F00B3DD02 /* CircleTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8AB7A2895189F00B3DD02 /* CircleTextContainer.m */; };
 		3FC8AB7D28951C7900B3DD02 /* Sample.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8AB7C28951C7900B3DD02 /* Sample.rtf */; };
 		3FC8AB802895320B00B3DD02 /* ExcludePathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8AB7F2895320B00B3DD02 /* ExcludePathViewController.m */; };
+		3FCB7AA1289ABB9E001AB61A /* ColorTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB7AA0289ABB9E001AB61A /* ColorTextViewController.m */; };
+		3FCB7AA4289C15F0001AB61A /* ColoringTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB7AA3289C15F0001AB61A /* ColoringTextStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,6 +204,10 @@
 		3FC8AB7C28951C7900B3DD02 /* Sample.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Sample.rtf; sourceTree = "<group>"; };
 		3FC8AB7E2895320B00B3DD02 /* ExcludePathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcludePathViewController.h; sourceTree = "<group>"; };
 		3FC8AB7F2895320B00B3DD02 /* ExcludePathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcludePathViewController.m; sourceTree = "<group>"; };
+		3FCB7A9F289ABB9E001AB61A /* ColorTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorTextViewController.h; sourceTree = "<group>"; };
+		3FCB7AA0289ABB9E001AB61A /* ColorTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTextViewController.m; sourceTree = "<group>"; };
+		3FCB7AA2289C15F0001AB61A /* ColoringTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColoringTextStorage.h; sourceTree = "<group>"; };
+		3FCB7AA3289C15F0001AB61A /* ColoringTextStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoringTextStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,6 +550,10 @@
 				3FC8AB7C28951C7900B3DD02 /* Sample.rtf */,
 				3FC8AB7E2895320B00B3DD02 /* ExcludePathViewController.h */,
 				3FC8AB7F2895320B00B3DD02 /* ExcludePathViewController.m */,
+				3FCB7A9F289ABB9E001AB61A /* ColorTextViewController.h */,
+				3FCB7AA0289ABB9E001AB61A /* ColorTextViewController.m */,
+				3FCB7AA2289C15F0001AB61A /* ColoringTextStorage.h */,
+				3FCB7AA3289C15F0001AB61A /* ColoringTextStorage.m */,
 			);
 			path = TextKitLayout;
 			sourceTree = "<group>";
@@ -887,10 +897,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCB7AA4289C15F0001AB61A /* ColoringTextStorage.m in Sources */,
 				3FC8AB782895187900B3DD02 /* CircleTextViewController.m in Sources */,
 				3FC8AB612895184600B3DD02 /* AppDelegate.m in Sources */,
 				3FC8AB722895184700B3DD02 /* main.m in Sources */,
 				3FC8AB802895320B00B3DD02 /* ExcludePathViewController.m in Sources */,
+				3FCB7AA1289ABB9E001AB61A /* ColorTextViewController.m in Sources */,
 				3FC8AB7B2895189F00B3DD02 /* CircleTextContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
