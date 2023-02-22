@@ -33,12 +33,18 @@
 ---
 ### MMTextView
 
-![](./Resources/5.png)
+![](./Resources/5.gif)
 
 实现一个富文本编辑器，可以插入任意类型的UIView，也支持复制粘贴，代码精简。
-由于Markdown不支持插入视频，我就发一张截图了。。
 
 ---
 ### TextKitLayout
 
 利用TextKit实现的几个小功能
+
+---
+### MMTextAnimationLabel
+
+![](./Resources/6.gif)
+
+参考：https://github.com/OnePieceLv/TextKitAndAnimationEffect
