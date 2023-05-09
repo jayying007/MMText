@@ -48,3 +48,10 @@
 ![](./Resources/6.gif)
 
 参考：https://github.com/OnePieceLv/TextKitAndAnimationEffect
+
+---
+### CoreTextMagazine
+![](./Resources/7.gif)
+
+来自：https://www.kodeco.com/578-core-text-tutorial-for-ios-making-a-magazine-app的作品
+其实跟上面ColumnarLayout有点像，就是多设置了pageEnabled
